@@ -1,0 +1,95 @@
+body{
+    margin:0;
+    width:100%;
+    background-color: #f2f2f2;
+}
+.img{
+    margin-top: 8px;
+    margin-left: 150px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  
+  }
+  .navbar a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .active {
+    background-color: #0672FF;
+    width: 130px;
+    height: 40px;
+  }
+
+.main{
+    padding: 20px;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    height: auto;
+    background-color: #fff;
+}
+
+.contentOne{
+    width: 1100px;
+    height: 500px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f2f2f2;
+}
+.contentTwo{
+    width: 1100px;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f2f2f2;
+}
+.contentThree{
+    width: 1100px;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f2f2f2;
+}
+.contentFour{
+    width: 1100px;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f2f2f2;
+}
+h1{
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2{
+    padding: 20px;
+    width: 90px;
+    line-height: 15px;
+    border-bottom: 5px solid #0672FF;
+    font-size: 1.2em;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    text-align: center;
+}

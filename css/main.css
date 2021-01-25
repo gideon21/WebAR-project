@@ -1,11 +1,13 @@
-body{
-    margin:0;
-    width:100%;
-    background-color: #f2f2f2;
+body,
+html {
+    margin: 0;
+    width: 100%;
+    background-color: #fff;
 }
-.img{
-    margin-top: 8px;
-    margin-left: 150px;
+
+.webAR_logo {
+    margin-top: 18px;
+    margin-left: 180px;
 }
 
 .navbar {
@@ -14,9 +16,10 @@ body{
     position: fixed;
     top: 0;
     width: 100%;
-  
-  }
-  .navbar a {
+    z-index: 300;
+}
+
+.navbar a {
     float: right;
     display: block;
     color: #f2f2f2;
@@ -26,15 +29,15 @@ body{
     font-size: 1.2em;
     font-weight: 600;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
+}
 
-  .active {
+.active {
     background-color: #0672FF;
     width: 130px;
     height: 40px;
-  }
+}
 
-.main{
+.main {
     padding: 20px;
     margin-top: 70px;
     margin-left: auto;
@@ -44,52 +47,195 @@ body{
     background-color: #fff;
 }
 
-.contentOne{
+.contentOne {
     width: 1100px;
     height: 500px;
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #f2f2f2;
+    background-color: #fbfbfd;
 }
-.contentTwo{
+
+.contentTwo {
     width: 1100px;
     height: 500px;
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #f2f2f2;
+    background-color: #fbfbfd;
 }
-.contentThree{
+
+.contentThree {
     width: 1100px;
     height: 500px;
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #f2f2f2;
+    background-color: #fbfbfd;
 }
-.contentFour{
+
+.contentFour {
     width: 1100px;
     height: 500px;
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #f2f2f2;
+    background-color: #fbfbfd;
 }
-h1{
+
+h1 {
     text-align: center;
     padding-top: 50px;
+    font-weight: 500;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-h2{
+
+.abts {
+    background-color: #0672FF;
     padding: 20px;
     width: 90px;
+    color: #fff;
     line-height: 15px;
-    border-bottom: 5px solid #0672FF;
     font-size: 1.2em;
-    font-weight: 400;
+    font-weight: 500;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-p{
+
+p {
+    padding: 10px;
     text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.kbts {
+    font-weight: 500;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    background-color: #fff;
+    color: #0672FF;
+    list-style-type: square;
+    height: 80px;
+    width: 230px;
+    padding: 30px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.hws {
+    background-color: #0672FF;
+    padding: 20px;
+    width: 100px;
+    color: #fff;
+    line-height: 15px;
+    font-size: 1.2em;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#image-wrapper {
+    width: 700px;
+    height: 450px;
+    position: relative;
+    margin: -3em auto;
+}
+
+.webar_scan {
+    padding-top: 10px;
+}
+
+#image-wrapper img {
+    display: block;
+    margin-top: -1px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+span.marker {
+    width: 20px;
+    height: 20px;
+    background: #0672FF;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+span.marker:before {
+    content: '+';
+}
+
+span.caption {
+    width: 180px;
+    background: #0672FF;
+    color: #fff;
+    padding: 4px;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    display: none;
+}
+
+.content-box {
+    width: 400px;
+    background: #fff;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 120px;
+    position: absolute;
+    padding-bottom: 50px;
+}
+
+.qrc {
+    text-align: center;
+    margin-top: 10px;
+    padding: 20px;
+    font-size: 1.5em;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.qrctext {
+    width: 100%;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 300px;
+    height: 380px;
+    font-size: 1em;
+    font-weight: 500;
+    margin-left: 690px;
+    margin-top: 60px;
+    position: absolute;
+    background-color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.webar {
+    padding-top: px;
+}
+
+.carp {
+    padding-top: 200px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

@@ -3,29 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Webbie.AR.</title>
+    <title>Web.AR.</title>
     <link rel="stylesheet" href="css/main.css">
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/main.js"></script>
 </head>
 
 <body>
 
     <div class="navbar">
-        <img class="img" src="images/webar_logo.png" style="width:200px">
+        <img src="images/web.AR_logo.png" class="webAR_logo" style="width:150px">
         <a class="active" href="#project.html">AR PROJECTS</a>
     </div>
 
-
     <div class="main">
-
-    <div class="contentOne">
-        <h2>About Us</h2>
-        <h1>Web Augmented Reality</h1>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-    </div>
-    <div class="contentTwo"></div>
-    <div class="contentThree"></div>
-    <div class="contentFour"></div>
+        <div class="contentOne">
+            <h2 class="abts">About Us</h2>
+            <h1>Web Augmented Reality</h1>
+            <p>An Augmented reality (AR) experience presented on a web browser</p>
+           
+            <h2 class="kbts">Key benfits</h2>
+            <table>
+                <td>● Increases engagement and interactivity
+                </td>
+                <td>● Provide additional information on a given subject
+                </td>
+                <td>● Makes learning fun
+                </td>
+            </table>
+        </div>
+        <div class="contentTwo">
+            <h2 class="hws">What to do</h2>
+            <div id="image-wrapper" data-captions='{"coords": [{"top":270,"left":70,"text":"Camera app to scan code"},{"top":190,"left":240,"text":"QR code"},
+            {"top":300,"left":420,"text":"Wait for Page to load"},{"top":110,"left":600,"text":"WebAR experience"}]}'>
+                <img src="images/webAR_scan.png" class="webar_scan" style="width: 700;" alt="" />
+            </div>
+        </div>
+        <div class="contentThree">
+            <div class="content-box">
+                <p class="qrc">QR Code Tracking</p>
+                <p class="qrctext">The QR code that you are about to scan is an overlay virtual content on a generated
+                    QR code</p>
+            </div>
+            <div class="card">
+                <img src="images/anatomy-at-mywebar.com.png" class="webar" style="width: 300px;">
+                <div class="container">
+                    <p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Scan QR code</p>
+                </div>
+            </div>
+        </div>
+        <div class="contentFour">
+            <p class="carp">Augmented Reality Projects</p>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+        </div>
 
     </div>
 </body>

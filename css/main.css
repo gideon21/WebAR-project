@@ -102,6 +102,7 @@ h1 {
 }
 
 p {
+    color: #333333;
     padding: 10px;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -185,26 +186,24 @@ span.caption {
 }
 
 .content-box {
-    width: 400px;
-    background: #fff;
+    width: 500px;
     text-align: center;
     margin-top: 150px;
-    margin-left: 120px;
+    margin-left: 110px;
     position: absolute;
-    padding-bottom: 50px;
 }
 
 .qrc {
     text-align: center;
     margin-top: 10px;
-    padding: 20px;
+    padding: 10px;
     font-size: 1.5em;
     font-weight: 500;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .qrctext {
-    width: 100%;
+    width: 500px;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -237,4 +236,9 @@ span.caption {
     font-size: 2em;
     font-weight: 500;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.arP {
+    padding: 10px;
+    color: #333333;
 }

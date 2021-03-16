@@ -53,16 +53,16 @@ html {
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #fbfbfd;
+    background-color: #000;
 }
 
 .contentTwo {
     width: 1100px;
-    height: 500px;
+    height: 750px;
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #fbfbfd;
+    background-color: #000;
 }
 
 .contentThree {
@@ -71,30 +71,46 @@ html {
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #fbfbfd;
+    background-color: #000;
 }
 
 .contentFour {
+    width: 1100px;
+    height: auto;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+    background-color: #000;
+}
+
+.contentFive {
     width: 1100px;
     height: 500px;
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #fbfbfd;
+    background-color: #000;
 }
 
 h1 {
+    position: relative;
+    z-index: 2;
     text-align: center;
     padding-top: 50px;
     font-weight: 500;
+    color: #fff;
     font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
 .abts {
+    position: relative;
+    z-index: 2;
     background-color: #0672FF;
     padding: 20px;
     width: 90px;
     color: #fff;
+    text-align: center;
     line-height: 15px;
     font-size: 1.2em;
     font-weight: 500;
@@ -102,19 +118,29 @@ h1 {
 }
 
 p {
+    position: relative;
+    z-index: 2;
     color: #333333;
     padding: 10px;
     text-align: center;
+    color: #fff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .kbts {
+    position: relative;
+    z-index: 2;
+    padding-top: 40px;
+    margin-bottom: -10px;
     font-weight: 500;
     text-align: center;
+    color: #fff;
     font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
 table {
+    position: relative;
+    z-index: 2;
     margin-left: auto;
     margin-right: auto;
 }
@@ -125,16 +151,70 @@ td {
     height: 80px;
     width: 230px;
     padding: 30px;
+    font-size: 1em;
+    font-weight: 600;
     text-align: center;
     vertical-align: middle;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.hws {
+#hws {
+    position: relative;
+    z-index: 1;
+    background-color: #0672FF;
+    padding: 20px;
+    width: 120px;
+    color: #fff;
+    text-align: center;
+    line-height: 15px;
+    font-size: 1.2em;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pict {
+    margin-top: -70px;
+}
+
+.dmo {
     background-color: #0672FF;
     padding: 20px;
     width: 100px;
     color: #fff;
+    text-align: center;
+    line-height: 15px;
+    font-size: 1.2em;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.splide {
+    padding: 10px;
+    width: 36%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -30px;
+}
+
+.splide__slide {
+    padding: 20px;
+    text-align: center;
+}
+
+.splide_track {
+    width: 40px;
+}
+
+.splide01_track {
+    width: 90px;
+}
+
+.ttl {
+    background-color: #0672FF;
+    padding: 20px;
+    width: 100px;
+    color: #fff;
+    text-align: center;
     line-height: 15px;
     font-size: 1.2em;
     font-weight: 500;
@@ -157,7 +237,9 @@ td {
     margin-top: -1px;
     margin-left: auto;
     margin-right: auto;
+    width: 700px;
 }
+
 
 span.marker {
     width: 20px;
@@ -230,7 +312,7 @@ span.caption {
 }
 
 .carp {
-    padding-top: 200px;
+    padding-top: 50px;
     text-align: center;
     font-size: 2em;
     font-weight: 500;
@@ -239,5 +321,85 @@ span.caption {
 
 .arP {
     padding: 10px;
-    color: #333333;
+    color: #fff;
+}
+
+.learn {
+    padding: 40px;
+    font-weight: 600;
+    font-size: 1.2em;
+    text-align: center;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.down_arrow {
+    width: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+
+.pdf_doc {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    margin-top: 40px;
+    margin-bottom: 0px;
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    color: #fff;
+    background-color: #333;
+    text-align: center;
+    left: 0;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.github {
+    position: absolute;
+    display: block;
+    top: 0;
+    margin-top: 10px;
+    margin-left: 600px;
+}
+
+.git {
+    position: absolute;
+    display: block;
+    top: 0;
+    margin-top: 10px;
+    margin-left: 500px;
+    color: #0672FF;
+    font-size: 0.9em;
+    font-weight: bold;
+
+}
+
+.scmtl {
+    margin-bottom: -10px;
+    color: #0672FF;
+    font-size: 1.2em;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+
+}
+
+.mdl {
+    margin-bottom: -10px;
+    color: #0672FF;
+    font-size: 1.2em;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+
+}
+
+.link {
+    padding: 3px;
+    display: block;
+    text-align: center;
+    color: #fff;
+    font-size: 1em;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
